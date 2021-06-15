@@ -41,7 +41,7 @@ best <- function(state, outcome) {
   }
   
   rates<-sort(name)
-  print(count)
+  #print(count)
   ## rate
   return(rates[1])
 }
